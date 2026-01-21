@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #ffc0cb;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.card {
+  background: white;
+  width: 90%;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+button {
+  background: #ff7aa2;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+button.outline {
+  background: transparent;
+  border: 2px solid #ff7aa2;
+  color: #ff7aa2;
+}
+
+.levels button {
+  margin: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.auth-btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Learning Path */
+.path {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background: #ddd;
+  border-radius: 50%;
+}
+
+.circle.active {
+  background: #ff7aa2;
+}
+
+.line {
+  width: 40px;
+  height: 4px;
+  background: #ccc;
+}
+
+/* Vocabulary */
+.vocab .word {
+  display: flex;
+  justify-content: space-between;
+  background: #fff0f5;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 8px 0;
+}
+
+/* Quiz */
+.quiz label {
+  display: block;
+  margin: 5px 0;
+}
+
+/* Trophy */
+.trophy {
+  font-size: 50px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  color: gray;
+}
